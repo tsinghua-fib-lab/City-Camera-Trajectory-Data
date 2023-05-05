@@ -1,0 +1,54 @@
+debug_phase: 2
+start_from_last: true
+seed: 43
+throw: false
+name: sz3rd_cluster1
+ref_name: sz3rd_cluster1
+sample_data: -1  # -1表示不采样
+use_nn_model: false
+nn_batch_size: 64
+nn_timeout: 0.01
+
+# ============== 召回参数 ==============
+
+do_recall_attempt: true
+miss_shot_p: 0.6
+subset_size_ratio_2: 0.6
+merge_cluster_sim_gate: 0.79
+merge_cluster_adj_range: 420
+merge_car_topk: 4
+merge_plate_topk: 30
+strong_noise_push: 0.3
+ordinary_noise_push: 0.15
+min_push_length: 0.1
+
+# ============== 去噪参数 ==============
+adj_range: 180
+tm_gap_gate: 720
+type_one_noise_keep_total_len: 7
+type_one_noise_keep_gate: 0.11
+type_two_noise_gate: 0.04
+type_two_noise_gate_2: 0.04
+type_two_noise_keep_gate: 0.1
+type_long_noise_gate: 0.01
+type_long_noise_gate_2: 0.01
+type_long_noise_keep_gate: 0.1
+bw_list_gate: 0.2
+type_black_list_gate: 0.001
+type_black_list_gate_2: 0.001
+white_list_length_gate: 0.1
+white_list_length_gate_2: 0.1
+white_list_mean_gate: 0.05
+white_list_mean_gate_2: 0.05
+white_list_max_gate: 0
+white_list_max_gate_2: 0
+opt_sub_coeff: 0.7
+opt_sub_coeff_2: 0.7
+
+# ============== 聚类参数 ==============
+
+cluster_sim_gate: 0.8
+num_iter: 10
+cluster_topk: 128
+cuda: 0,1,2
+num_workers: 32
