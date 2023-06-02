@@ -2,7 +2,7 @@
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 
-Code and dataset of our dataset description paper:
+Code of our dataset description paper:
 
 - Fudan Yu, Huan Yan, Rui Chen, Guozhen Zhang, Meng Chen and Yong Li. City-scale Vehicle Trajectory Data From Traffic Camera Videos.
 
@@ -61,7 +61,7 @@ For details, see the README in this directory.
 
 ### dataset
 
-The .csv files as the proposed dataset.
+The .csv files as the proposed dataset. Please download from our Figshare repository.
 
 ### example
 
