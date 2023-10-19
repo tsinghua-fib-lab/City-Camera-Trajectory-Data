@@ -4,16 +4,13 @@
 
 Code of our dataset description paper:
 
-- Fudan Yu, Huan Yan, Rui Chen, Guozhen Zhang, Meng Chen and Yong Li. City-scale Vehicle Trajectory Data From Traffic Camera Videos.
-
-<!-- This is the official implementation of the following paper: 
-- Fudan Yu, Wenxuan Ao, Huan Yan, Guozhen Zhang, Wei Wu and Yong Li. [Spatio-Temporal Vehicle Trajectory Recovery on Road Network Based on Traffic Camera Video Data(in KDD 2022)](https://dl.acm.org/doi/10.1145/3534678.3539186). 
+- Fudan Yu, Huan Yan, Rui Chen, Guozhen Zhang, Meng Chen and Yong Li. [City-scale Vehicle Trajectory Data From Traffic Camera Videos (Scientific Data 2023)](https://doi.org/10.1038/s41597-023-02589-y). 
 
 <p align="center">
 <img src=".\img\framework.png" height = "" alt="" align=center />
 <br><br>
 <b>Figure 1.</b> Overall Framework.
-</p> -->
+</p>
 
 ## Requirements
 
@@ -61,29 +58,27 @@ For details, see the README in this directory.
 
 ### dataset
 
-The .csv files as the proposed dataset. Please download from our Figshare repository.
+The .csv files as the proposed dataset. Please download from our [Figshare repository](https://doi.org/10.6084/m9.figshare.c.6676199.v1).
 
 ### example
 
 A .ipynb example on the basic usage of the proposed dataset.
 
-<!-- ## Citation
+## Citation
 If you find this repository useful in your research, please consider citing the following paper:
 ```
-@inproceedings{10.1145/3534678.3539186,
-author = {Yu, Fudan and Ao, Wenxuan and Yan, Huan and Zhang, Guozhen and Wu, Wei and Li, Yong},
-title = {Spatio-Temporal Vehicle Trajectory Recovery on Road Network Based on Traffic Camera Video Data},
-year = {2022},
-isbn = {9781450393850},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3534678.3539186},
-doi = {10.1145/3534678.3539186},
-booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-pages = {4413–4421},
-numpages = {9},
-keywords = {spatio-temporal modeling, vehicle trajectory recovery, urban computing},
-location = {Washington DC, USA},
-series = {KDD '22}
+@Article{Yu2023,
+author={Yu, Fudan and Yan, Huan and Chen, Rui and Zhang, Guozhen and Liu, Yu and Chen, Meng and Li, Yong},
+title={City-scale Vehicle Trajectory Data from Traffic Camera Videos},
+journal={Scientific Data},
+year={2023},
+month={Oct},
+day={17},
+volume={10},
+number={1},
+pages={711},
+issn={2052-4463},
+doi={10.1038/s41597-023-02589-y},
+url={https://doi.org/10.1038/s41597-023-02589-y}
 }
-``` -->
+```
